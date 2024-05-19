@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .bg-purple{
+    background-color: purple;
+  } 
+  .bg-purple-light{
+    background-color: rgb(209, 129, 209);
+  } 
+  .bg-black{
+    background-color: black;
+  } 
+  .text-purple{
+    color: purple;
+  } 
+  .text-purple-light{
+    color: rgb(209, 129, 209);
+  } 
+  .text-black{
+    color: black;
+  } 
+  .message-reciever{
+    border-radius: 0px 10px 10px 40px;
+  }
+  .message-sender{
+    border-radius: 10px 0px 40px 10px;  
+  }
+  .fit-content{
+    width: fit-content;
+  }
+  .focus-none:focus{
+    outline: none;
+  }
+  #myInput::placeholder {
+    size: 50px;
+    padding-left: 5px;
+    color: rgb(0, 0, 0); /* Change the color to your desired value */
+  }
+  #myInput{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #mySearch::placeholder {
+    padding-left: 5px;
+    size: 50px;
+    color: white; /* Change the color to your desired value */
+  }
+  #mySearch{
+    padding-left: 10px;
+    font-size: 20px;
+  }
+    
+  .main-container {
+    min-height: 100vh;
+  }
+  .width-container {
+    width:100%;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .overflow-auto{
+    overflow:auto;
+}
+
+
+.custom-scrollbar {
+    height: 200px;
+    overflow: auto;
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #f1f1f1 #888888; /* Color of the scrollbar track and thumb */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #888888; /* Color of the scrollbar track */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1; /* Color of the scrollbar thumb */
+  }
+  
+/* CUSTOM WIDTHS */
+.w-25, .w-xs-25 { width: 25%!important; }
+.w-50, .w-xs-50 { width: 50%!important; }
+.w-75, .w-xs-75 { width: 75%!important; }
+.w-100, .w-xs-100 { width: 100%!important; }
+
+/* BREAKPOINTS */
+
+/* SM breakpoint */
+@media (min-width: 576px) {
+    /* CUSTOM WIDTHS */
+    .w-sm-25 { width: 25%!important; }
+    .w-sm-50 { width: 50%!important; }
+    .w-sm-75 { width: 75%!important; }
+    .w-sm-100 { width: 100%!important; }
+}
+
+/* MD breakpoint*/
+@media (min-width: 768px) {
+    /* CUSTOM WIDTHS */
+    .w-md-25 { width: 25%!important; }
+    .w-md-50 { width: 50%!important; }
+    .w-md-75 { width: 75%!important; }
+    .w-md-100 { width: 100%!important; }
+}
+
+/* LG breakpoint */
+@media (min-width: 992px) {
+    /* CUSTOM WIDTHS */
+    .w-lg-25 { width: 25%!important; }
+    .w-lg-50 { width: 50%!important; }
+    .w-lg-75 { width: 75%!important; }
+    .w-lg-100 { width: 100%!important; }
+}
